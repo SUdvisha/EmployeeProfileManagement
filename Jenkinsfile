@@ -6,7 +6,7 @@ pipeline {
         // DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
         DOCKER_IMAGE = "employeeprofilemanagement_image"
     }
-
+// checking some
     // Various stages in the Pipeline Process:
     stages {
         stage('Checkout') {
